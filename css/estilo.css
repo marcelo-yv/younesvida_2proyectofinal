@@ -2,7 +2,9 @@
 /* Media Queries */
 
 @media  (max-width: 575px) {
-    .envio_sincargo{
+    /*css index*/
+/*header*/
+.envio_sincargo{
         background-color: #8B0000;
         color: white;
         text-align: center;
@@ -27,6 +29,7 @@
 .fondo_menu{
     background-color: white !important;
 }
+
 /*Contenido principal*/
 .seccion_destacados{
     margin-top: 2rem;
@@ -76,9 +79,7 @@
     margin-bottom: 2rem;
     border: 1px solid #8B0000;
     border-radius: 1rem;
-    padding: 1rem;
-
-    
+    padding: 1rem;  
 }
 
 /*css footer*/
@@ -124,11 +125,19 @@
     flex-direction: row;
     justify-content: center;
 }
+/* paginas*/
+.imagen_nosotros{
+    width: 10rem;
+}
+.margenes_paginas{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
 
 }
 
 
-    /* Pantallas de 576px de ancho o más */
+/* Pantallas de 576px de ancho o más */
 
 @media (min-width: 576px) {}
 
@@ -146,46 +155,50 @@
 /* Pantallas de 1200px de ancho o más */
 
 @media (min-width: 1200px) {
-    .envio_sincargo{
+
+   /*css index*/
+/* header*/
+.envio_sincargo{
         background-color: #8B0000;
         color: white;
         text-align: center;
     }
-    .logo{
+.logo{
         width: 50px;
     }
-    .icono_whatsaap{
+.icono_whatsaap{
         display: inline-block;
         position: fixed;
         left: 97%;
         top: 1%;
     
     }
-    .nav_nombredefantasia{
+.nav_nombredefantasia{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
     }
-    .nav_titulo{
+.nav_titulo{
         margin-left: 1rem;
     }
-    .fondo_menu{
+.fondo_menu{
         background-color: white !important;
     }
-    .seccion_destacados{
+/*Contenido Principal*/
+.seccion_destacados{
         margin-top: 2rem;
     }
-    .sub_Contenedor{
+.sub_Contenedor{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         transition: all 0.5s;
     }
-    .sub_Contenedor:hover{
+.sub_Contenedor:hover{
         transform: scale(1.1);
     }
-    .titulo_destacados{
+.titulo_destacados{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -198,23 +211,23 @@
         padding: 1rem;
         margin-bottom: 1.3rem;
     }
-    .beneficios{
+.beneficios{
         margin-top: 3rem;
         margin-bottom: 5rem;
     }
-    .beneficios_esquema{
+.beneficios_esquema{
         display: flex;
         flex-direction: row;
         justify-content:space-evenly;
         align-items: center;
     }
-    .beneficios_alineacion{
+.beneficios_alineacion{
         display: flex;
         flex-direction: column;
         justify-content:center;
         align-items: center;
     }
-    .article_transformate{
+.article_transformate{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -225,6 +238,7 @@
         padding: 1rem;
         
     }
+/* footer*/
     .footer_contenedor{
         margin-top: 2rem;
         background-color: #8B0000;
@@ -272,3 +286,14 @@
         flex-direction: row;
         justify-content: center;
     }
+
+/* paginas*/
+    .imagen_nosotros{
+        width: 15rem;
+    }
+    .margenes_paginas{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+}
